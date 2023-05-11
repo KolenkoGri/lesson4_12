@@ -36,7 +36,6 @@
       console.log(computer);
       const answer = prompt(`${lang}?`).toLowerCase();
       if (answer) {
-        // answer.toLowerCase();
         const arr = [...lang];
         const compAnswer = arr.slice(computer, computer + 1).toString();
         if (answer[0] === compAnswer[0]) {
